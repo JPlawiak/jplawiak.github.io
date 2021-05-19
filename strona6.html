@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rejestracja do newslettera</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Jakub Pławiak">
+	<meta name="description" content="Strona poświęcona dietetyce">
+	<meta name="generator" content="Sublime Text 3">
+	<meta name="keywords" content="Dietetyka, Ziemia, zdrowie, środowisko">
+	<meta http-equiv="content-language" content="pl">
+	<meta http-equiv="creation-date" content="31.03.2021">
+	<meta http-equiv="refresh" content="300">
+	<meta http-equiv="reply-to" content="jplawiak@tm1.edu.pl">
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+	<a href="index.html">
+		<div id="logo">
+			<img id="logo" src="zdjecia/logo.png">
+		</div>
+	</a>
+	<a href="strona2.html">
+		<div id="zakladka1">
+			Wegetarianizm
+		</div>
+	</a>
+	<a href="strona3.html">
+		<div id="zakladka2">
+			Weganizm
+		</div>
+	</a>
+	<a href="strona4.html">
+		<div id="zakladka3">
+			Fleksitarianizm
+		</div>
+	</a>
+	<a href="strona5.html">
+		<div id="zakladka4">
+			Klimatarianizm
+		</div>
+	</a>
+	<a href="strona6.html">
+		<div id="zakladka5" style="background-color: rgba(6, 190, 225, 1); font-size: 25px;">
+			Zarejestruj się
+		</div>
+	</a>
+	<div id="tytul">
+		Chcesz być na bieżąco? Zarejestruj się do newslettera!
+	</div>
+	<div id="wyjasnienie" style="height: auto;">
+		<div id="wyjasnienie2">
+			Co dzięki temu zyskasz?
+		</div>
+		Dzięki rejestracji do mojego newslettera będziesz na bieżąco ze wszystkimi ciekawostkami z zakresu żywienia i suplementacji oraz ich wpływu na środowisko. Oprócz tego, w wysyłanych do Was wiadomościach zamieszczam linki do ciekawych badań naukowych oraz artykułów o kontrowersyjnych dietach.
+		<hr>
+		Dodam tylko, że newsletter jest bezpłatny, a żeby go dostawać, wystarczy zalogować lub zarejestrować się poprzez poniższy formularz. Uwierz mi, że naprawdę warto :)
+	</div>
+	<main style="top: 83%; height: 95%;">
+		<div id="pytanie">Logowanie i rejestracja</div>
+		<section style="width: 42%; height: 80%;">
+			<header>Rejestracja</header>
+			<form action="mailto:jplawiak@tm1.edu.pl">
+				<table class="formularz" cellpadding="10px">
+					<tr>
+						<td>Imię:</td>
+						<td><input type="text" name="imie" placeholder="Jan" required></td>
+					</tr>
+					<tr>
+						<td>Nazwisko:</td>
+						<td><input type="text" name="nazwisko" placeholder="Kowalski" required></td>
+					</tr>
+					<tr>
+						<td>Płeć:</td>
+						<td>
+							<input type="radio" name="plec" style="cursor: pointer;">Kobieta
+							<input type="radio" name="plec" style="cursor: pointer;">Mężczyzna
+						</td>
+					</tr>
+					<tr>
+						<td>Wiek:</td>
+						<td><input type="number" name="liczby" min="1" max="100" style="cursor: pointer;"></td>
+					</tr>
+					<tr>
+						<td>Adres e-mail:</td>
+						<td><input type="email" placeholder="jan.kowalski@gmail.com"></td>
+					</tr>
+					<tr>
+						<td>Numer telefonu:</td>
+						<td><input type="tel" pattern="^\d{3}-\d{3}-\d{3}$" placeholder="123-456-789"></td>
+					</tr>
+					<tr>
+						<td>Treści, które chciałbyś otrzymywać:</td>
+						<td>
+							<input type="checkbox" name="tresci" style="cursor: pointer;" value="Dietetyczne ciekawostki">Dietetyczne ciekawostki<br>
+							<input type="checkbox" name="tresci" style="cursor: pointer;" value="Informacje o różnych dietach">Informacje o różnych dietach<br>
+							<input type="checkbox" name="tresci" style="cursor: pointer;" value="Przykładowe plany dietetyczne">Plany dietetyczne<br>
+							<input type="checkbox" name="tresci" style="cursor: pointer;" value="Suplementacyjne ciekawostki">Suplementacyjne ciekawostki<br>
+						</td>
+					</tr>
+					<tr>
+						<td>Hasło:</td>
+						<td><input type="password" name="haslo" placeholder="********" maxlength="20" required></td>
+					</tr>
+					<tr>
+						<td>Potwierdź hasło:</td>
+						<td><input type="password" name="haslo" placeholder="********" maxlength="20" required></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td align="right" style="padding-bottom: 20px;">
+							<input id="przycisk" type="reset" value="Zresetuj">
+							<input id="przycisk" type="submit" value="Zarejestruj się">
+						</td>
+					</tr>
+				</table>
+			</form>
+		</section>
+		<section style="width: 42%; height: 80%;">
+			<header>Logowanie</header>
+			<form action="mailto:jplawiak@tm1.edu.pl">
+				<table class="formularz" cellpadding="10px">
+					<tr>
+						<td>Imię:</td>
+						<td><input type="text" name="imie" placeholder="Jan" required></td>
+					</tr>
+					<tr>
+						<td>Nazwisko:</td>
+						<td><input type="text" name="nazwisko" placeholder="Kowalski" required></td>
+					</tr>
+					<tr>
+						<td>Adres e-mail:</td>
+						<td><input type="email" placeholder="jan.kowalski@gmail.com"></td>
+					</tr>
+					<tr>
+						<td>Hasło:</td>
+						<td><input type="password" name="haslo" placeholder="********" maxlength="20" required></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td align="right">
+							<input id="przycisk" type="reset" value="Zresetuj">
+							<input id="przycisk" type="submit" value="Zaloguj się">
+						</td>
+					</tr>
+				</table>
+			</form>
+			<img id="formularz" src="zdjecia/formularz.png">
+		</section>
+	</main>
+	<footer style="top: 183%;">
+		Copyright 2021 &copy; Jakub Pławiak. | Wszelkie prawa zastrzeżone. | Strona stworzona w celach naukowych. | Kontakt e-mail: jplawiak@tm1.edu.pl |
+		<a href="strona7.html">Dowiedz się więcej o tej stronie</a>
+	</footer>
+</body>
+</html>
